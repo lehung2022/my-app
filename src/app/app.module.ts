@@ -11,12 +11,14 @@ import { MaterialExampleModule } from 'material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { TableDragComponent } from './table-drag/table-drag.component';
 // Elements to create the drag and drop thing 
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
+    TableDragComponent,
     
   ],
   imports: [
