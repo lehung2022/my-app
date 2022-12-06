@@ -5,12 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 // End of basic stuff
-
+// Elements to create the drag and drop thing 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialExampleModule } from 'material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+// Elements to create the drag and drop thing 
 
 @NgModule({
   declarations: [
