@@ -532,6 +532,13 @@ export interface User {
       email: "Guadalupe.Spinka@damaris.name",
       address: "5844 Sipes Corner",    
       order: 75
-    }
+    },
+    {
+      first: "John",
+      last: "Lee",
+      email: "john.lee@gmail.com",
+      address: "5000 Miami street",    
+      order: 76
+    },
   ];
   
